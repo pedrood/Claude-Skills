@@ -51,8 +51,7 @@ skill-name/
 
 | Skill | Description |
 |-------|-------------|
-| `FR-formal-system`         | Derived from: Jannatkhah Doost, Nazariyeh Azadi, Iran va Din (1405) 
-Status: Consistent axiomatic formal system — extracted, formalized |
+| `FR-formal-system`         | Derived from: Jannatkhah Doost, Nazariyeh Azadi, Iran va Din (1405)<br> Status: Consistent axiomatic formal system — extracted, formalized |
 
 ---
 
