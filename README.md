@@ -21,35 +21,23 @@ Skills live in a directory that Claude scans at runtime. When your prompt matche
 ```
 claude-skills/
 ├── README.md
-├── user/                        # Personal & professional skills
-│   ├── behdad-execution-engine/
-│   ├── longevity-coach/
-│   ├── dotnet-programming/
-│   ├── excel-data-engineer/
-│   ├── accounting-finance/
-│   ├── social-media-admin/
-│   ├── ttt-coach/
-│   └── systemic-individualism/
-└── public/                      # General-purpose skills
-    ├── docx/
-    ├── pdf/
-    ├── pptx/
-    ├── xlsx/
-    └── frontend-design/
+├── Skills
+│   └── FR-formal-system/
 ```
 
 Each skill folder contains at minimum:
 
 ```
 skill-name/
-└── SKILL.md          # Frontmatter (name, description) + instruction body
+├── skill-name.md            # Frontmatter (name, description) + instruction body
+└── skill-name.skil          # Calude skill file to install
 ```
 
 Some skills include additional resources:
 
 ```
 skill-name/
-├── SKILL.md
+├── skill-name.md
 ├── references/       # Domain documentation loaded on demand
 ├── scripts/          # Executable helpers for deterministic tasks
 └── assets/           # Templates, fonts, or static files
@@ -63,29 +51,8 @@ skill-name/
 
 | Skill | Description |
 |-------|-------------|
-| `behdad-execution-engine` | Anti-paralysis, decision-forcing system. Breaks analysis loops and forces output when overthinking kicks in. |
-| `systemic-individualism` | Analyzes systems, contracts, policies, and power structures through the lens of individual autonomy and coercion detection. |
-
-### 🟢 Health & Performance
-
-| Skill | Description |
-|-------|-------------|
-| `longevity-coach` | Integrated longevity science, neuroscience, and behavioral coaching. Covers sleep, VO2max, BDNF, Zone 2, habit formation, and more. |
-| `ttt-coach` | Train-The-Trainer coaching skill. Iterative, anti-procrastination approach to becoming a better instructor and facilitator. |
-
-### 🔵 Technical
-
-| Skill | Description |
-|-------|-------------|
-| `dotnet-programming` | Expert C#, ASP.NET Core, EF Core, Blazor, SQL Server, design patterns, clean architecture, and microservices. |
-| `excel-data-engineer` | Elite Excel expert + data engineering mindset. Power Query, DAX, VBA, dynamic arrays, ETL, dashboards. |
-| `accounting-finance` | Financial statements, budgeting, IFRS/GAAP, ERP finance modules, financial modeling, and cash flow analysis. |
-
-### 🟡 Communication & Content
-
-| Skill | Description |
-|-------|-------------|
-| `social-media-admin` | LinkedIn, Instagram, Telegram, and multi-platform content strategy, caption writing, and community management. |
+| `FR-formal-system`         | Derived from: Jannatkhah Doost, Nazariyeh Azadi, Iran va Din (1405) 
+Status: Consistent axiomatic formal system — extracted, formalized |
 
 ---
 
@@ -106,7 +73,7 @@ Copy any skill folder into your local skills directory:
 ```
 your-skills-dir/
 └── skill-name/
-    └── SKILL.md
+    └── skill-name.md
 ```
 
 ---
@@ -137,7 +104,7 @@ This is a personal repository, but if you want to fork it and adapt skills for y
 ## Author
 
 **Behdad Pedrood**  
-Senior IT Professional | Software Architect | Product Manager  
+Senior IT Professional | Software Engineer | Product Manager  
 
 - GitHub: [@pedrood](https://github.com/pedrood)
 - LinkedIn: [linkedin.com/in/behdad-pedrood](https://linkedin.com/in/behdad-pedrood)
