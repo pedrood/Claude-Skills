@@ -29,7 +29,8 @@ Each skill folder contains at minimum:
 
 ```
 skill-name/
-├── skill-name.md            # Frontmatter (name, description) + instruction body
+├── README.md   
+├── SKILL.md            	 # Frontmatter (name, description) + instruction body
 └── skill-name.skil          # Calude skill file to install
 ```
 
@@ -37,7 +38,9 @@ Some skills include additional resources:
 
 ```
 skill-name/
-├── skill-name.md
+├── README.md
+├── SKILL.md
+└── skill-name.skil
 ├── references/       # Domain documentation loaded on demand
 ├── scripts/          # Executable helpers for deterministic tasks
 └── assets/           # Templates, fonts, or static files
@@ -51,7 +54,7 @@ skill-name/
 
 | Skill | Description |
 |-------|-------------|
-| `FR-formal-system`         | Derived from: Jannatkhah Doost, Nazariyeh Azadi, Iran va Din (1405)<br> Status: Consistent axiomatic formal system — extracted, formalized <br> X: [@jannatkhah_ir](https://x.com/jannatkhah_ir) <br>IG:[@jannatkhah.ir](Instagram.com/jannatkhah.ir)|
+| `Freedom-Formal-System`         | Derived from: Jannatkhah Doost, Nazariyeh Azadi, Iran va Din (1405)<br> Status: Consistent axiomatic formal system — extracted, formalized <br> X: [@jannatkhah_ir](https://x.com/jannatkhah_ir) <br>IG:[@jannatkhah.ir](Instagram.com/jannatkhah.ir)|
 
 ---
 
