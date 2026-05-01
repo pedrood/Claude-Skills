@@ -40,7 +40,7 @@ Some skills include additional resources:
 skill-name/
 ├── README.md
 ├── SKILL.md
-└── skill-name.skil
+├── skill-name.skil
 ├── references/       # Domain documentation loaded on demand
 ├── scripts/          # Executable helpers for deterministic tasks
 └── assets/           # Templates, fonts, or static files
