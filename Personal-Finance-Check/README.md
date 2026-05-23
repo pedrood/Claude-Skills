@@ -93,7 +93,7 @@ This skill integrates with:
 
 ## Source
 
-The 47-point checklist is adapted from the **BishtarAzYek.com** cost reduction checklist (بیشتر از یک نفر), extended with behavioral finance frameworks and Iranian/diaspora market context.
+The 47-point checklist is adapted from the ['BishtarAzYek.com'](https://bishtarazyek.com) cost reduction checklist **(بیشتر از یک نفر)**, extended with behavioral finance frameworks and Iranian/diaspora market context.
 
 ---
 
