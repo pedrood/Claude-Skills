@@ -76,9 +76,9 @@ The skill activates on queries like:
 
 This skill integrates with:
 
-- [`accounting-finance`](../accounting-finance) — for formal budgeting, P&L thinking, financial modeling
-- [`longevity-coach`](../longevity-coach) — for health-habit savings (quitting smoking, home cooking, preventive checkups)
-- [`behdad-execution-engine`](../behdad-execution-engine) — for breaking financial decision paralysis
+- [`accounting-finance`](#) — for formal budgeting, P&L thinking, financial modeling
+- [`longevity-coach`](https://github.com/pedrood/Claude-Skills/tree/main/Longevity-Coach) — for health-habit savings (quitting smoking, home cooking, preventive checkups)
+- [`behdad-execution-engine`](#) — for breaking financial decision paralysis
 
 ---
 
